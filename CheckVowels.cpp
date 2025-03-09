@@ -13,7 +13,7 @@ int main()
        if (tolower(n[i]) == 'a' || tolower(n[i]) == 'e' || tolower(n[i]) == 'i' ||
         tolower(n[i]) == 'o' || tolower(n[i]) == 'u')
         {
-            cout<<n[i];
+            cout<<(char) tolower(n[i]); //typecast kore lower e convert korlam...
         }
         else{
             break;
