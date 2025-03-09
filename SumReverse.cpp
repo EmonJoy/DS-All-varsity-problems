@@ -34,7 +34,7 @@ int main()
     }
 
 
-    cout<<"Solve by MR. Morningstar";
+
 
 
     return 0;
