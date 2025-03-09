@@ -9,7 +9,7 @@ int main()
     int rev[size];
     int sum[size];
 
-    for(int i=0;i<size; i++)
+    for(int i=0;i<size; i++) // eita reverse loop
     {
         cout<<arr2[size-i-1]<<endl;
         rev[i] = arr2[size-i-1];
@@ -20,8 +20,16 @@ int main()
 
     for(int i=0; i<size; i++)
     {
-        sum[i] = arr[i] + rev[i];
+        sum[i] = arr[i] + rev[i]; // eita main calculation
     }
+
+
+    for(int i=0; i<size; i++)
+    {
+
+        cout<<sum[i]<<endl;
+    }
+
 
     return 0;
 }
