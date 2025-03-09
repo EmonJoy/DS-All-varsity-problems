@@ -9,6 +9,9 @@ int main()
     int rev[size];
     int sum[size];
 
+    // 2ta array r size eki tai amra jkno ekti array dhore
+    // array er size ta ber kore nisi...
+
     for(int i=0;i<size; i++) // eita reverse loop
     {
         cout<<arr2[size-i-1]<<endl;
