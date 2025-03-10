@@ -1,3 +1,13 @@
+
+/*
+Initialize an array. Size should be more than FIVE. Write you program to
+change the array in such a way so that there cannot be any duplicate element
+in the array anymore. Print the changed array. If the initialized array already
+had no duplicate elements from the beginning, output a message saying “Array already unique!”;
+
+
+*/
+
 #include<iostream>
 using namespace std;
 
@@ -31,7 +41,7 @@ int main()
     }
     if(!chk)
         {
-            cout<<"Array is already unique";
+            cout<<"Array is already unique!";
         }
     return 0;
 }

@@ -1,3 +1,11 @@
+
+/*
+
+Initialize TWO integer arrays A and B of different sizes. Make a new array with the common elements
+ between A and B. Print the new array element(s). If there is no common element, output “No common element!”.
+
+*/
+
 #include<iostream>
 using namespace std;
 

@@ -1,3 +1,10 @@
+
+/*
+Initialize TWO integer arrays of different sizes.
+Merge the input arrays and create a new array.
+Then print the new array in reverse order.
+*/
+
 #include<iostream>
 using namespace std;
 

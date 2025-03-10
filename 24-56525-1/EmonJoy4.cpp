@@ -1,3 +1,10 @@
+/*
+Initialize an integer array A of size 10. Take an integer as input and print
+how many times that integer occurs in A.
+
+
+*/
+
 #include<iostream>
 using namespace std;
 int main()
